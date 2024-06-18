@@ -1,0 +1,40 @@
+.description{ 
+    /* hide in small devices */
+   display: block;
+}
+.maintable td{
+    /* height of table deatils */
+height: 4rem;
+}
+.controls{
+    /* width of table row */
+    width:10vw;
+}
+.search{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    
+}
+.textarea{
+    height: 2rem;
+}
+@media screen and (max-width:550px){
+    .description{
+
+       display:none;
+}
+.controls{
+    width: 150px;
+}
+.textarea{
+    margin-left: 1rem;
+    height: 2rem;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+}
